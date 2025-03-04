@@ -14,7 +14,7 @@ Check out the project live: [Personal Data Form](https://personal-data-ochre.ver
 ### 1️⃣ Open Locally
 1. Download or clone the repository:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/mohameedramzy/personal-data.git
    ```
 2. Open `index.html` in your browser.
 
