@@ -1,0 +1,114 @@
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: #3F1263;
+            color: azure;
+        }
+        
+        h1, h2 {
+            text-align: center;
+        }
+        
+        form {
+            max-width: 400px;
+            margin: auto;
+            background-color: #986EAD;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        table {
+            width: 100%;
+        }
+        
+        td {
+            display: block;
+            width: 100%;
+            text-align: left;
+            padding: 5px 0;
+        }
+        
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Personal Data</h1>
+    <form>
+        <h2>Your Name</h2>
+        <table>
+            <tr>
+                <td><label for="fn">First Name</label></td>
+                <td><input id="fn" name="FN" type="text" placeholder="ex-Mohammed" required></td>
+            </tr>
+            <tr>
+                <td><label for="sn">Second Name</label></td>
+                <td><input id="sn" name="SN" type="text" placeholder="ex-Ramzy" required></td>
+            </tr>
+        </table>
+        
+        <table>
+            <tr>
+                <td><label for="Phone">Your Phone</label></td>
+                <td><input id="Phone" name="Phone" type="tel" placeholder="ex-01255558888" required></td>
+            </tr>
+            <tr>
+                <td><label for="em">Email</label></td>
+                <td><input id="em" name="email" type="email" placeholder="ex-ramzy@gmail.com" required></td>
+            </tr>
+            <tr>
+                <td><label for="pass">Password</label></td>
+                <td><input id="pass" name="pass" type="password" placeholder="Enter a hard password" required></td>
+            </tr>
+            <tr>
+                <td><label for="re-password">Re-password</label></td>
+                <td><input id="re-password" name="re-password" type="password" placeholder="Re-enter the password" required></td>
+            </tr>
+        </table>
+        
+        <h2>Choose Your Gender</h2>
+        <input id="ma" type="radio" name="gender" value="Male">
+        <label for="ma">Male</label>
+        <br>
+        <input id="fe" type="radio" name="gender" value="Female">
+        <label for="fe">Female</label>
+        
+        <h2>Choose Your Status</h2>
+        <input id="st" type="checkbox" name="status" value="Student">
+        <label for="st">Student</label>
+        <br>
+        <input id="gr" type="checkbox" name="status" value="Graduated">
+        <label for="gr">Graduated</label>
+        
+        <h2>Choose Your Option</h2>
+        <select name="Group">
+            <optgroup label="Group 1">
+                <option value="1.1">Option 1.1</option>
+            </optgroup>
+            <optgroup label="Group 2">
+                <option value="2.1">Option 2.1</option>
+                <option value="2.2">Option 2.2</option>
+            </optgroup>
+            <optgroup label="Group 3">
+                <option value="3.1">Option 3.1</option>
+                <option value="3.2">Option 3.2</option>
+            </optgroup>
+        </select>
+        
+        <br><br>
+        <label for="sm">
+            <img src="download 2.jpg" alt="submit button" width="75">
+        </label>
+        <input id="sm" type="submit" hidden>
+    </form>
+</body>
+
+</html>
